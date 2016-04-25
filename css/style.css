@@ -1,0 +1,23 @@
+body {
+	background-color: #000;
+}
+
+#grid {
+	background-color: #000;
+	border: 2px solid #9B9B9B;
+	width: 50%;
+	height: 80vh;
+	margin: 0 auto;
+	margin-top: 10vh;
+	padding: 2px;
+	box-sizing: border-box;
+}
+
+.cell {
+	float: left;
+	background-color: #383838;
+	border: 1px solid #000;
+	width: 10%;
+	height: 10%;
+	box-sizing: border-box;
+}
