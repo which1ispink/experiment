@@ -13,11 +13,12 @@ body {
 	box-sizing: border-box;
 }
 
-.cell {
+#grid > div {
 	float: left;
 	background-color: #383838;
 	border: 1px solid #000;
 	width: 10%;
 	height: 10%;
+	cursor: pointer;
 	box-sizing: border-box;
 }
