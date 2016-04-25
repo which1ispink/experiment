@@ -24,7 +24,12 @@ function generate_grid() {
 
 function generate_cell(cell_id, cell_background_color) {
 	var cell = $("<div>", {id: cell_id, class: CELL_DIV_CLASS});
-	cell.css('background-color', cell_background_color);
+	var cell_size_ratio = 100 / GRID_SIZE;
+	cell.css({
+		'background-color': cell_background_color,
+		'width': cell_size_ratio + '%',
+		'height': cell_size_ratio + '%'
+	});
 	return cell;
 }
 
