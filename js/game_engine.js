@@ -121,8 +121,7 @@ $(document).ready(function() {
 
 	// Attach cell click event handler
 	$('.cell').click(function() {
-		var this_cell = $(this);
-		process_cell_click(this_cell);
+		process_cell_click($(this));
 	});
 });
 

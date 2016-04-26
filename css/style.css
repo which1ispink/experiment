@@ -5,18 +5,15 @@ body {
 #info {
 	color: #FFF;
 	font-size: 20px;
-	width: 50%;
+	width: 40%;
 	margin: 0 auto;
-	padding: 0 50px;
 	position: relative;
 	top: 10px;
 	box-sizing: border-box;
 }
 
 #info > span {
-	padding-top: 10px;
-	padding-left: 20%;
-	box-sizing: border-box;
+	padding-left: 110px;
 }
 
 #score, #target-color {
