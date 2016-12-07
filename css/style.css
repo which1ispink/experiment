@@ -38,3 +38,7 @@ body {
 	cursor: pointer;
 	box-sizing: border-box;
 }
+
+.cell {
+	transition: all 200ms ease-in-out;
+}
